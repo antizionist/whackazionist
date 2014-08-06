@@ -1,5 +1,6 @@
 body {
 	font-family: Helvetica, Arial, sans-serif;
+	text-align: center;
 }
 h1 {
 	font-size: 24px;
@@ -13,14 +14,14 @@ p {
 .wrapper {
 	padding: 5px;
 	background: #e1e1e1;
-	width: 510px;
-	margin: 50px auto;
+	width: 700px;
+	margin: auto;
 }
 
 #wam-game {
 	background: #78b73b;
-	height: 300px;
-	width: 500px;
+	height: 500px;
+	width: 700px;
 	display: block;
 	position: relative;
 	margin: 0 auto;
@@ -56,20 +57,18 @@ p {
 	font-family: arial;
 }
 .wam-startScreen {
-	height: 100%;
-	width: 100%;
-	background: url('images/startScreen.png');
+	height: 500px;
+	width: 700px;
+	background:  url('images/startScreen.png') no-repeat center;
 	cursor: pointer;
 	text-indent: -9999px;
 	z-index: 20;
 }
 .wam-endScreen {
 	position: absolute;
-	top: 100px;
-	left: 100px;
-	height: 68px;
-	width: 308px;
-	background: url('images/endScreen.png');
+	height: 500px;
+	width: 700px;
+	background: url('images/endScreen.png') no-repeat center;
 	text-indent: -9999px;
 	cursor: pointer;
 }
