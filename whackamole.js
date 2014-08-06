@@ -1,22 +1,5 @@
-/*
-
-	Whack-A-Mole v0
-	copyright 2010 Christopher Scott Hernandez
-
-	JavaScript/HTML game written as a challenge by my friend Rob Allen at work.
-	
-	This document is licensed as free software under the terms of the
-	MIT License: http://www.opensource.org/licenses/mit-license.php 
-	
-*/
-
-
-
 // our one global
-// ...thought about doing it like jquery
-// what with the whole window.whackamole = whackamole bit, but... 
-// i dunno... i like this better.. and i have to be different... :)
-var whackamole = whackamole || (function(window, undefined) {
+var whackazionist = whackazionist || (function(window, undefined) {
 	
 	// booleans, ints, and timers oh my!
 	var game, score, popping, startTime, currentTime, clicked, moles, gameTimeout, hits = 0;
