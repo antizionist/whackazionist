@@ -93,7 +93,7 @@ var whackazionist = whackazionist || (function(window, undefined) {
 		sb = game.scoreboard = document.createElement("div");
 		sb.className = "wam-scoreboard";
 		sb.update = function() {
-			this.innerHTML = "points: " + score + "<br />Zionists: " + hits + " / " + moles;
+			this.innerHTML = "points: " + score + "<br />Moles: " + hits + " / " + moles;
 		}
 		
 		// the start screen
@@ -169,7 +169,7 @@ var whackazionist = whackazionist || (function(window, undefined) {
 				break;
 			case "end":
 			default:
-				game.scoreboard.innerHTML = "Final Score: " + score + "<br />Zionists: " + hits + " / " + moles;
+				game.scoreboard.innerHTML = "Final Score: " + score + "<br />Moles: " + hits + " / " + moles;
 				game.endScreen.style.display = "block";
 				break;
 		}
